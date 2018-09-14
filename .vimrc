@@ -1,0 +1,1 @@
+/afs/andrew.cmu.edu/usr16/jnamgung/.vimrc
