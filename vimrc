@@ -60,9 +60,13 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.vim/plugged')
-Plug 'vim-airline/vim-airline'
+Plug 'itchyny/lightline.vim'
 Plug 'flazz/vim-colorschemes'
 call plug#end()
 
 colorscheme jellybeans
+set laststatus=2
+let g:lightline = {
+    \ 'colorscheme': 'jellybeans',
+    \ }
 
