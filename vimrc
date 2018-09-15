@@ -62,6 +62,7 @@ endif
 call plug#begin('~/.vim/plugged')
 Plug 'itchyny/lightline.vim'
 Plug 'flazz/vim-colorschemes'
+Plug 'mhinz/vim-signify'
 call plug#end()
 
 colorscheme jellybeans
@@ -69,4 +70,5 @@ set laststatus=2
 let g:lightline = {
     \ 'colorscheme': 'jellybeans',
     \ }
+let g:signify_vcs_list = ['git', 'svn']
 
