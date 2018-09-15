@@ -65,10 +65,13 @@ Plug 'flazz/vim-colorschemes'
 Plug 'mhinz/vim-signify'
 call plug#end()
 
+set background=dark
 colorscheme jellybeans
+highlight Normal ctermbg=NONE
+highlight nonText ctermbg=NONE
 set laststatus=2
 let g:lightline = {
-    \ 'colorscheme': 'jellybeans',
-    \ }
+            \ 'colorscheme': 'jellybeans',
+            \ }
 let g:signify_vcs_list = ['git', 'svn']
 
