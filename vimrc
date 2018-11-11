@@ -70,6 +70,7 @@ call plug#end()
 
 autocmd BufEnter,FocusGained * set nonumber relativenumber
 autocmd BufLeave,FocusLost * set number norelativenumber
+autocmd BufRead,BufNewFile *.h set filetype=c
 set timeoutlen=500
 
 set background=dark
